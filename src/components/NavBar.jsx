@@ -1,4 +1,4 @@
-const NavBar = ({pokemonIndex, pokemonList, handleClick}) => {
+const NavBar = ({pokemonList, handleClick}) => {
     
     return (<div>
         {pokemonList.map((pokemon, index) => (
