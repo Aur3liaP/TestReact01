@@ -1,7 +1,7 @@
 .card {
-  width: 200px;
+  min-width: 50vh;
   padding: 1rem;
-  background-color: lightgreen;
+  background-color: rgb(137, 105, 144);
   border-radius: 5px;
   box-shadow: 0px 0px 5px gray;
   color: white;
@@ -17,4 +17,8 @@
   background-color: white;
   border-radius: inherit;
   box-shadow: inherit;
+}
+
+button {
+  margin : 14%;
 }
